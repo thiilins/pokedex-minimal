@@ -6,7 +6,7 @@ import { PokemonDetailsPageContainer } from './styles'
 const PokemonDetail: React.FC = () => {
   return (
     <PokemonDetailsPageContainer>
-      <PokemonProfile />
+      {/* <PokemonProfile pokemonType={'rock'} /> */}
     </PokemonDetailsPageContainer>
   )
 }
