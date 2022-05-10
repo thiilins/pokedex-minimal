@@ -3,7 +3,8 @@ export const HeaderContainer = styled.div`
   ${({ theme }) => css`
     display: flex;
     align-items: center;
-    padding: 2rem 10rem;
+    gap: 2.5rem;
+    padding: 2rem 8rem;
     justify-content: space-between;
     background: ${theme.colors.header};
     & .logo {
